@@ -1,0 +1,21 @@
+{
+  "name": "opslane",
+  "description": "Opslane plugins for Claude Code.",
+  "owner": {
+    "name": "Opslane",
+    "url": "https://lockbox.run"
+  },
+  "plugins": [
+    {
+      "name": "lockbox",
+      "source": "./plugins/lockbox",
+      "description": "Hand secrets and files to other people and their agents, end-to-end encrypted, with the lockbox CLI.",
+      "category": "security",
+      "tags": [
+        "secrets",
+        "encryption",
+        "env"
+      ]
+    }
+  ]
+}

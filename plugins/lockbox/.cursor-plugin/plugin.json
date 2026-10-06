@@ -1,0 +1,22 @@
+{
+  "name": "lockbox",
+  "displayName": "Lockbox",
+  "description": "Hand secrets and files to other people and their agents, end-to-end encrypted, with the lockbox CLI. No secret values in chat.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Opslane"
+  },
+  "homepage": "https://lockbox.run",
+  "repository": "https://github.com/opslane/lockbox-skills",
+  "license": "MIT",
+  "keywords": [
+    "secrets",
+    "encryption",
+    "e2ee",
+    "env",
+    "api-keys",
+    "file-sharing",
+    "security",
+    "cli"
+  ]
+}

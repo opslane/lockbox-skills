@@ -1,0 +1,26 @@
+{
+  "name": "lockbox",
+  "displayName": "Lockbox",
+  "version": "0.1.0",
+  "description": "Teach Claude to hand secrets and files to other people and their agents, end-to-end encrypted, with the lockbox CLI. No secret values in chat.",
+  "author": {
+    "name": "Opslane",
+    "url": "https://lockbox.run"
+  },
+  "homepage": "https://lockbox.run",
+  "repository": "https://github.com/opslane/lockbox-skills",
+  "license": "MIT",
+  "keywords": [
+    "secrets",
+    "encryption",
+    "e2ee",
+    "env",
+    "api-keys",
+    "file-sharing",
+    "security",
+    "cli"
+  ],
+  "documentationUrl": "https://lockbox.run/docs",
+  "supportUrl": "https://lockbox.run/support",
+  "privacyPolicyUrl": "https://lockbox.run/privacy"
+}

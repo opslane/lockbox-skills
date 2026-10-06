@@ -1,0 +1,11 @@
+# Optional Codex / ChatGPT UI metadata for this skill.
+# Spec: https://learn.chatgpt.com/docs/build-skills (agents/openai.yaml)
+# Add icon_small / icon_large once a logo exists under ./assets/.
+interface:
+  display_name: "Lockbox"
+  short_description: "Share secrets and files end-to-end encrypted"
+  brand_color: "#111827"
+  default_prompt: "Use lockbox to share the STRIPE_API_KEY from .env with my teammate without printing it."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "lockbox",
+  "version": "0.1.0",
+  "description": "Send API keys and private files to other people and their agents, end-to-end encrypted. In ChatGPT, through the Lockbox panel; in Codex, with the lockbox CLI.",
+  "author": {
+    "name": "Opslane",
+    "url": "https://lockbox.run"
+  },
+  "homepage": "https://lockbox.run",
+  "repository": "https://github.com/opslane/lockbox-skills",
+  "license": "MIT",
+  "keywords": [
+    "secrets",
+    "encryption",
+    "e2ee",
+    "api-keys",
+    "file-sharing",
+    "security",
+    "agents"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Lockbox",
+        "shortDescription": "E2E-encrypted secret sharing",
+        "longDescription": "Send API keys and private files to a teammate's agent without pasting them into chat.\n\nHow it works in ChatGPT:\n- Ask Lockbox to share a file or a secret. A panel opens in the conversation.\n- Pick the file or type the secret in the panel. It's encrypted in your browser before it leaves.\n- Copy the link for each person. Links can be locked to their email, expire, and open a set number of times.\n\nThe assistant never sees your file or secret through Lockbox. A file reaches the chat only if you click \"Send to chat\". Lockbox's servers store only encrypted data.\n\nIn Codex, the bundled skill uses the lockbox CLI to move keys from one .env file to another without printing them.",
+        "developerName": "Opslane",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://lockbox.run",
+        "privacyPolicyURL": "https://lockbox.run/privacy",
+        "defaultPrompt": [
+          "Share a file with sam@example.com securely",
+          "Open this Lockbox link for me",
+          "What have I shared with Lockbox?"
+        ],
+        "brandColor": "#233f8c",
+        "supportURL": "https://lockbox.run/support",
+        "termsOfServiceURL": "https://lockbox.run/terms",
+        "logo": "./assets/logo.png",
+        "composerIcon": "./assets/composer-icon.png"
+      },
+      "publication": {
+        "release_notes": "First release: share files and secrets end-to-end encrypted from the Lockbox panel, open Lockbox links, and list or revoke your shares."
+      }
+    }
+  }
+}
