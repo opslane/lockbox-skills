@@ -1,0 +1,21 @@
+{
+  "name": "lockbox",
+  "owner": {
+    "name": "Lockbox",
+    "email": "support@lockbox.run"
+  },
+  "metadata": {
+    "description": "Send API keys and private files to someone else's agent, end-to-end encrypted."
+  },
+  "plugins": [
+    {
+      "name": "lockbox",
+      "source": "plugins/lockbox",
+      "description": "Send API keys and private files to a teammate's agent, end-to-end encrypted. Includes the lockbox skill (CLI) and the Lockbox MCP server.",
+      "license": "MIT",
+      "logo": "plugins/lockbox/assets/logo.png",
+      "category": "security",
+      "keywords": ["secrets", "encryption", "api-keys", "env", "file-sharing"]
+    }
+  ]
+}
