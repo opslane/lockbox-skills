@@ -1,7 +1,7 @@
 {
   "name": "lockbox",
   "displayName": "Lockbox",
-  "description": "Hand secrets and files to other people and their agents, end-to-end encrypted, with the lockbox CLI. No secret values in chat.",
+  "description": "Send API keys and private files to someone else's agent, end-to-end encrypted. Includes the lockbox skill (CLI) and the Lockbox MCP server.",
   "version": "0.1.0",
   "author": {
     "name": "Opslane"
@@ -18,5 +18,6 @@
     "file-sharing",
     "security",
     "cli"
-  ]
+  ],
+  "logo": "./assets/logo.png"
 }
